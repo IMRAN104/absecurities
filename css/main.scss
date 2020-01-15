@@ -1,5 +1,5 @@
-$primary-color: red;
-$primary-text-color: #bb151c;
+$primary-color: #bb151c;
+$primary-text-color: #fe1616;
 $primary-font-size: 10px;
 $primary-font-family : Roboto;
 
@@ -53,4 +53,48 @@ html,body{
 .dropdown-item:hover{
     background-color: $primary-color;
     color: white;
+}
+
+.ticker-section--logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ticker-section--ticker{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.marquee {
+  width: 90%;
+  overflow: hidden;
+}
+
+.ticker-main-div {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    padding: 10px;
+}
+
+.ticker--item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ticker--item__up {
+    color: green;
+}
+
+.ticker--item__down {
+    color: red;
+}
+
+.ticker--item__normal {
+    color: blue;
 }
