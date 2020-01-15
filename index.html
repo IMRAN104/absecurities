@@ -1,370 +1,123 @@
-﻿<html>
-    <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        
-        <link href="main.css" rel="stylesheet">
-        <link >
-    </head>
-    <body>
-        <div id="header-section">
-
-            <nav class="header--nav">
-                <div class="nav-wrapper">
-                    <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <ul class="hide-on-med-and-down" >
-                        <li class="nav--list--item">
-                            <a href="#">HOME</a>
-                        </li>
-                        <li class="nav--list--item">
-                            <div class='dropdown-trigger-pc' data-target='dropdown-pc1'>ABOUT US</div>
-                            <ul id='dropdown-pc1' class='dropdown-content'>
-                                <li><a href="#!">Corporate Profile</a></li>
-                                <li><a href="#!">Board of Directors</a></li>
-                                <li><a href="#!">Management Profile</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav--list--item">
-                            <div class='dropdown-trigger-pc' data-target='dropdown-pc2'>SERVICES</div>
-                    
-                            <ul id='dropdown-pc2' class='dropdown-content'>
-                                <li><a href="#!">Sales and Trending(Online/Offline)</a></li>
-                                <li><a href="#!">Clearing Service</a></li>
-                                <li><a href="#!">DP Service</a></li>
-                                <li><a href="#!">Margin Facilities</a></li>
-                                <li><a href="#!">SMS & E-Statements Service</a></li>
-                                <li><a href="#!">Foreign & Institutional Broking Expertise</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav--list--item">
-                            <div class='dropdown-trigger-pc' data-target='dropdown-pc3'>ACCOUNT OPENING</div>
-                        
-                            <ul id='dropdown-pc3' class='dropdown-content'>
-                                <li><a href="#!">Single/Joint Account</a></li>
-                                <li><a href="#!">Limited Company</a></li>
-                                <li><a href="#!">Other</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav--list--item">
-                            <div class='dropdown-trigger-pc' data-target='dropdown-pc4'>Tranding</div>
-                        
-                            <ul id='dropdown-pc4' class='dropdown-content'>
-                                <li><a href="#!">In House Tranding</a></li>
-                                <li><a href="#!">Telephonic Tranding</a></li>
-                                <li><a href="#!">Online Tranding</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav--list--item">
-                            <div class='dropdown-trigger-pc' data-target='dropdown-pc5'>IPO</div>
-                            <ul id='dropdown-pc5' class='dropdown-content'>
-                                <li><a href="#!">IPO Process</a></li>
-                                <li><a href="#!">IPO Request</a></li>
-                                <li><a href="#!">IPO Client List</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav--list--item">
-                            <a href="#">BRANCHES</a>
-                        </li>
-
-                        <li class="nav--list--item">
-                            <div class='dropdown-trigger-pc' data-target='dropdown-pc6'>LAWS & REGULATIONS</div>
-                            <ul id='dropdown-pc6' class='dropdown-content'>
-                                <li><a href="#!">Bangladesh Bank</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav--list--item">
-                            <a href="#">DOWNLOADS</a>
-                        </li>
-
-                        <li class="nav--list--item">
-                            <div class='dropdown-trigger-pc' data-target='dropdown-pc7'>CONTACT US</div>
-                            <ul id='dropdown-pc7' class='dropdown-content'>
-                                <li><a href="#!">Office Contact</a></li>
-                                <li><a href="#!">Trader Contact</a></li>
-                                <li><a href="#!">Query</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-
-            <ul class="sidenav" id="mobile-nav">
-                <li class="sidenav--item">
-                    <a href="#">HOME</a>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css"> 
+</head>
+<body>
+<div class="container">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse i-nav-bar" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                    
-                <li class="sidenav--item">
-                    <div class='dropdown-trigger-mobile' data-target='dropdown-mobile1'>ABOUT US</div>
-                
-                    <ul id='dropdown-mobile1' class='dropdown-content'>
-                        <li><a href="#!">Corporate Profile</a></li>
-                        <li><a href="#!">Board of Directors</a></li>
-                        <li><a href="#!">Management Profile</a></li>
-                    </ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About Us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Corporate Profile</a>
+                        <a class="dropdown-item" href="#">Board of Directors</a>
+                        <a class="dropdown-item" href="#">Management Profile</a>
+                    </div>
                 </li>
-
-                <li class="sidenav--item">
-                    <div class='dropdown-trigger-mobile' data-target='dropdown-mobile2'>SERVICES</div>
-            
-                    <ul id='dropdown-mobile2' class='dropdown-content'>
-                        <li><a href="#!">Sales and Trending(Online/Offline)</a></li>
-                        <li><a href="#!">Clearing Service</a></li>
-                        <li><a href="#!">DP Service</a></li>
-                        <li><a href="#!">Margin Facilities</a></li>
-                        <li><a href="#!">SMS & E-Statements Service</a></li>
-                        <li><a href="#!">Foreign & Institutional Broking Expertise</a></li>
-                    </ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Sales and Trending(Online/Offline)</a>
+                        <a class="dropdown-item" href="#">Clearing Service</a>
+                        <a class="dropdown-item" href="#">DP Service</a>
+                        <a class="dropdown-item" href="#">Margin Facilities</a>
+                        <a class="dropdown-item" href="#">SMS & E-Statements Service</a>
+                        <a class="dropdown-item" href="#">Foreign & Institutional Broking Expertise</a>
+                    </div>
                 </li>
-
-                <li class="sidenav--item">
-                    <div class='dropdown-trigger-mobile' data-target='dropdown-mobile3'>ACCOUNT OPENING</div>
-                    
-                    <ul id='dropdown-mobile3' class='dropdown-content'>
-                        <li><a href="#!">Single/Joint Account</a></li>
-                        <li><a href="#!">Limited Company</a></li>
-                        <li><a href="#!">Other</a></li>
-                    </ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Account Opening
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Single/Joint Account</a>
+                        <a class="dropdown-item" href="#">Limited Company</a>
+                        <a class="dropdown-item" href="#">Other</a>
+                    </div>
                 </li>
-
-                <li class="sidenav--item">
-                    <div class='dropdown-trigger-mobile' data-target='dropdown-mobile4'>Tranding</div>
-                
-                    <ul id='dropdown-mobile4' class='dropdown-content'>
-                        <li><a href="#!">In House Tranding</a></li>
-                        <li><a href="#!">Telephonic Tranding</a></li>
-                        <li><a href="#!">Online Tranding</a></li>
-                    </ul>
-                </li>
-
-                <li class="sidenav--item">
-                    <div class='dropdown-trigger-mobile' data-target='dropdown-mobile5'>IPO</div>
-                    <ul id='dropdown-mobile5' class='dropdown-content'>
-                        <li><a href="#!">IPO Process</a></li>
-                        <li><a href="#!">IPO Request</a></li>
-                        <li><a href="#!">IPO Client List</a></li>
-                    </ul>
-                </li>
-
-                <li class="sidenav--item">
-                   <a href="#">BRANCHES</a> 
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tranding
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">In House Tranding</a>
+                        <a class="dropdown-item" href="#">Telephonic Tranding</a>
+                        <a class="dropdown-item" href="#">Online Tranding</a>
+                    </div>
                 </li>
                 
-                <li class="sidenav--item">
-                    <div class='dropdown-trigger-mobile' data-target='dropdown-mobile6'>LAWS & REGULATIONS</div>
-                    <ul id='dropdown-mobile6' class='dropdown-content'>
-                        <li><a href="#!">Bangladesh Bank</a></li>
-                    </ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    IPO
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">IPO Process</a>
+                        <a class="dropdown-item" href="#">IPO Client List</a>
+                        <a class="dropdown-item" href="#">IPO Request</a>
+                    </div>
                 </li>
-
-                <li class="sidenav--item">
-                    <a href="#">DOWNLOADS</a> 
-                 </li>
-
-                <li class="sidenav--item">
-                    <div class='dropdown-trigger-mobile' data-target='dropdown-mobile7'>CONTACT US</div>
-                    <ul id='dropdown-mobile7' class='dropdown-content'>
-                        <li><a href="#!">Office Contact</a></li>
-                        <li><a href="#!">Trader Contact</a></li>
-                        <li><a href="#!">Query</a></li>
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Branches <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Laws & Regulations
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Bangladesh Bank</a>
+                    </div>
+                </li>                
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Downloads <span class="sr-only">(current)</span></a>
+                </li>                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Contact Us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Office Contact</a>
+                        <a class="dropdown-item" href="#">Trader Contact</a>
+                        <a class="dropdown-item" href="#">Query</a>
+                    </div>
                 </li>
             </ul>
         </div>
-
-
-        <!--  -->
-        <div id="ticker-section">
-            <div class="row">
-                <div class="col s12 l3 company-logo-div" >
-                    <img src="logo.png" alt="LOGO" style="height: 40px;">
-                </div>
-
-                <div class="col s12 l9" style="display: flex;">
-                    <div class="marquee">
-                        <div class="ticker-main-div">
-                            <div class="ticker--item ticker--item__up">
-                                <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                                <div>0.9 &nbsp; 20.8%</div>
-                            </div>
-                            <div class="ticker--item ticker--item__up">
-                                <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                                <div>0.9 &nbsp; 20.8%</div>
-                            </div>
-                            <div class="ticker--item ticker--item__down">
-                                <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                                <div>-0.9 &nbsp; -20.8%</div>
-                            </div>
-                            <div class="ticker--item ticker--item__normal">
-                                <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                                <div>0.9 &nbsp; 20.8%</div>
-                            </div>
-                            <div class="ticker--item ticker--item__up">
-                                <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                                <div>0.9 &nbsp; 20.8%</div>
-                            </div>
-                            <div class="ticker--item ticker--item__down">
-                                <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                                <div>0.9 &nbsp; 20.8%</div>
-                            </div>
-                            <div class="ticker--item ticker--item__down">
-                                <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                                <div>0.9 &nbsp; 20.8%</div>
-                            </div>
-                            <div class="ticker--item ticker--item__up">
-                                <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                                <div>0.9 &nbsp; 20.8%</div>
-                            </div>
-                            <div class="ticker--item ticker--item__normal">
-                                <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                                <div>0.9 &nbsp; 20.8%</div>
-                            </div>
-                            <div class="ticker--item ticker--item__up">
-                                <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                                <div>0.9 &nbsp; 20.8%</div>
-                            </div>
-                        </div>  
-                    </div>
-                    <div style="display: flex; flex-direction: column;">
-                        <button style="background-color: #65b1ff;" onclick="directionright()">
-                            <i class="fas fa-angle-right"></i>
-                        </button>
-                        <button style="background-color: #ff9595;" onclick="togglemarquee()">
-                            <i class="fas fa-pause"></i>
-                        </button>
-                        <button style="background-color: #65b1ff;" onclick="directionleft()">
-                            <i class="fas fa-angle-left"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <script
-            src="https://code.jquery.com/jquery-3.4.1.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous">
-        </script>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-        <script type='text/javascript' src='https://cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js'></script>
-
-        <script src="https://kit.fontawesome.com/3e5b53fd9c.js" crossorigin="anonymous"></script>
-
-        <script type="text/javascript">
-            $('.dropdown-trigger-pc').dropdown({
-                hover: true,
-                alignment: 'down',
-                coverTrigger: false,
-                constrainWidth: false,
+    </nav>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".dropdown, .btn-group").hover(function(){
+                var dropdownMenu = $(this).children(".dropdown-menu");
+                if(dropdownMenu.is(":visible")){
+                    dropdownMenu.parent().toggleClass("open");
+                }
             });
-            $('.dropdown-trigger-mobile').dropdown({
-                coverTrigger: false,
-                constrainWidth: false,
-            });
-            $(document).ready(function(){
-                $('.sidenav').sidenav();
-            });
+        });     
+    </script>
 
-            var mq = $('.marquee').marquee({
-                pauseOnHover: true,
-                duplicated: true,
-                gap: 0,
-            });
 
-            function togglemarquee(){
-                mq.marquee('toggle')
-            }
-
-            function directionright(){
-                mq.marquee({
-                    direction: 'right'
-                })
-            }
-
-            function directionleft(){
-                mq.marquee({
-                    direction: 'left'
-                })
-            }
-        </script>
-    </body>
+</body>
 </html>
