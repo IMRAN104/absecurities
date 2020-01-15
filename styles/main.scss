@@ -5,7 +5,7 @@ $primary-font-family : Roboto;
 
 
 html,body{
-    overflow: hidden;
+    overflow-x: hidden;
     font-size: $primary-font-size;
     font-family: $primary-font-family, monospace;
 }
@@ -13,6 +13,7 @@ html,body{
 .i-nav-bar{
     justify-content: center;
     padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
     letter-spacing: 0.04rem;
 }
 
