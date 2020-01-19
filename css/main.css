@@ -222,4 +222,10 @@ html, body {
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
           transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
+
+.custom-footer {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+}
 /*# sourceMappingURL=main.css.map */
