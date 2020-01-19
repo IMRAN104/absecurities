@@ -1,4 +1,5 @@
-$primary-color: #bb151c;
+$primary-color: #7C0000;
+$secondary-color: #00BDD6;
 $primary-text-color: #fe1616;
 $primary-font-size: 10px;
 $primary-font-family : Roboto;
@@ -12,13 +13,15 @@ html,body{
 
 .i-nav-bar{
     justify-content: center;
+
     padding-top: 1.1rem;
     padding-bottom: 1.1rem;
     letter-spacing: 0.04rem;
+    background-color: $primary-color;
 }
 
 .navbar-nav .nav-link{
-    color: $primary-text-color !important; 
+    color: white !important; 
     font-size: 1.35rem;
 }
 
@@ -98,3 +101,136 @@ html,body{
 .ticker--item__normal {
     color: blue;
 }
+.ticker--control--button{
+    background-color: $secondary-color; 
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imp--links--div {
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+
+    .imp--links--col {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        margin-bottom: 3rem;
+
+        .imp--single-link--div {
+            width: 100px;
+            height: 100px;
+            background-color: $primary-color;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            box-shadow: 0px 5px 6px 0px #bfbcbc;
+            padding: 5px;
+            
+            i{
+                color: #fbffbc;
+                font-size: 1.8rem;
+                margin-bottom: 10px;
+            }
+
+            a {
+                color: #fbffbc;
+                text-align: center;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+.hvr-bounce-to-bottom {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    transition-property: color;
+    transition-duration: 0.5s;
+
+    &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: $secondary-color;
+        transform: scaleY(0);
+        transform-origin: 50% 0;
+        transition-property: transform;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-out;
+    }
+
+    &:hover, &:focus, &:active {
+        color: white;
+    }
+
+    &:hover:before, &:focus:before, &:active:before {
+        transform: scaleY(1);
+        transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    }
+}
+
