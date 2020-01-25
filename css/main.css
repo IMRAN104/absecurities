@@ -11,7 +11,7 @@ html, body {
   padding-top: 1.1rem;
   padding-bottom: 1.1rem;
   letter-spacing: 0.04rem;
-  background-color: #7C0000;
+  background-color: #ff1403;
 }
 
 .navbar-nav .nav-link {
@@ -48,7 +48,7 @@ html, body {
 }
 
 .dropdown-item:hover {
-  background-color: #7C0000;
+  background-color: #ff1403;
   color: white;
 }
 
@@ -120,7 +120,7 @@ html, body {
 }
 
 .ticker--control--button {
-  background-color: #00BDD6;
+  background-color: #009800;
   color: white;
 }
 
@@ -143,7 +143,7 @@ html, body {
 .imp--links--div .imp--links--col .imp--single-link--div {
   width: 100px;
   height: 100px;
-  background-color: #7C0000;
+  background-color: #ff1403;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -197,7 +197,7 @@ html, body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #00BDD6;
+  background: #009800;
   -webkit-transform: scaleY(0);
           transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
