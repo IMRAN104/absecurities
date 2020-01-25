@@ -27,7 +27,9 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">Corporate Profile</a>
                             <a class="dropdown-item" href="#">Board of Directors</a>
-                            <a class="dropdown-item" href="#">Management Profile</a>
+                            <a class="dropdown-item" href="#">Our Mission & Vision</a>
+                            <a class="dropdown-item" href="#">Holidays</a>
+                            <a class="dropdown-item" href="#">Annual Report</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -67,16 +69,16 @@
                         </div>
                     </li> -->
                     <!-- *TODO uncomment later if necessary -->
-                    <!-- <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         IPO
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">IPO Process</a>
-                            <a class="dropdown-item" href="#">IPO Client List</a>
-                            <a class="dropdown-item" href="#">IPO Request</a>
+                            <a class="dropdown-item" href="#">New IPO</a>
+                            <a class="dropdown-item" href="#">IPO Application</a>
+                            <a class="dropdown-item" href="#">IPO Result</a>
                         </div>
-                    </li> -->
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Branches <span class="sr-only">(current)</span></a>
                     </li>
@@ -94,10 +96,18 @@
                                target="_blank">Securities Related Rules</a>
 
                         </div>
-                    </li>                
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Clients' Guidelines <span class="sr-only">(current)</span></a>
+                    </li>               
                     <li class="nav-item">
                         <a class="nav-link" href="#">Downloads <span class="sr-only">(current)</span></a>
-                    </li>                
+                    </li> 
+                    <li class="nav-item">
+                        <!-- <a class="nav-link" href="#">Notices & Circulars <span class="sr-only">(current)</span></a> -->
+                        <a class="nav-link" href="#">Notices <span class="sr-only">(current)</span></a>
+                    </li>
+                                   
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Contact Us
@@ -113,7 +123,23 @@
 						<a class="nav-link"
 						   href="https://www.dsebd.org/dse_faq.php" target="_blank">FAQ <span class="sr-only">(current)</span></a>
 					</li>
-					
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdownMenuLink"
+                           data-toggle="dropdown"
+                           aria-haspopup="true"
+                           aria-expanded="false">
+                            Register
+                        </a>
+                        <div class="dropdown-menu"
+                             aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item"
+                               href="#">Register</a>
+                            <a class="dropdown-item"
+                               href="#">Log In</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -521,16 +547,23 @@
 			<div class="row" style="margin-top: 50px;margin-bottom: 50px; font-size: 1.5rem;;">
 				<div class="col-sm-12 col-md-12 col-lg-6 mb-5">
 					<form action="/action_page.php">
-						<label for="fname">First Name</label>
+						<label for="name">Your Name (required)</label>
 						<input type="text"
-							   id="fname"
-							   name="firstname"
-							   placeholder="Your first name..">
-						<label for="lname">Last Name</label>
-						<input type="text"
-							   id="lname"
-							   name="lastname"
-							   placeholder="Your last name..">
+							   id="name"
+							   name="name"
+                               placeholder="Your name.." required>
+                        <label for="email">Your Email</label>
+                        <input type="email"
+                               id="email"
+                               name="email"
+                               placeholder="Your email.."
+                               required>
+                        <label for="subject">Subject</label>
+                        <input type="text"
+                                id="subject"
+                                name="subject"
+                                placeholder="Write your subject..."
+                        >
 						<!-- <label for="country">Country</label>
 						<select id="country"
 								name="country">
@@ -538,11 +571,11 @@
 							<option value="canada">Canada</option>
 							<option value="usa">USA</option>
 						</select> -->
-						<label for="subject">Subject</label>
+						<label for="subject">Your Message</label>
 						<textarea id="subject"
 								  name="subject"
-								  placeholder="Write something.."
-								  style="height:170px"></textarea>
+								  placeholder="Write something..."
+								  style="height:170px" required></textarea>
 						<input type="submit"
 							   value="Submit">
 					</form>
