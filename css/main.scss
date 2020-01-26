@@ -273,7 +273,7 @@ html,body{
     width: 300px;
     margin-bottom: 15px;
     padding: 10px 0px;
-    
+    color: #4c4c4c;
     p {
         margin: 0;
     }
@@ -291,10 +291,32 @@ html,body{
     font-family: "Lato";
 }
 .contact-div-subheader{
-    color: black;
+    color: grey;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
+.contact-us-card-div{
+    background-color: darkcyan;
+
+}
+.contact-section-row {
+    margin-top: 35px;
+    display: flex; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.contact-section-col {
+    text-align: center;
+    font-size: 13px;
+    width: 240px;
+    margin-bottom: 15px;
+    padding: 10px 0px;
+
+    p {
+        margin: 0;
+    }
+}
+
 .contact-us-card-icon{
     color: $secondary-color;
 }
