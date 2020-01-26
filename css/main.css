@@ -130,7 +130,7 @@ html, body {
 
 .services-section-header {
   text-align: center;
-  padding: 50px 0px;
+  padding: 50px 0px 70px 0px;
 }
 
 .services-section-header .services-section-header-text {
@@ -138,6 +138,15 @@ html, body {
   font-weight: 600;
   color: #ff1403;
   border-radius: 4px;
+}
+
+.service-card-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .service-card-div {
@@ -188,8 +197,23 @@ html, body {
   color: white;
 }
 
+.links-section-div {
+  padding: 55px 0px;
+}
+
+.links-section-header {
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.links-section-header .links-section-header-text {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: #ff1403;
+  border-radius: 4px;
+}
+
 .imp--links--div {
-  padding-top: 12rem;
   padding-bottom: 10rem;
 }
 

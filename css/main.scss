@@ -112,13 +112,17 @@ html,body{
 }
 .services-section-header{
     text-align: center;
-    padding: 50px 0px;
+    padding: 50px 0px 70px 0px;
     .services-section-header-text{
         font-size: 2.6rem;
         font-weight: 600;
         color: $primary-color;
         border-radius: 4px;
     }
+}
+.service-card-column{
+    display: flex;
+    justify-content: center;
 }
 .service-card-div{
     width: 220px;
@@ -152,6 +156,7 @@ html,body{
     text-align: center;
     padding: 10px 10px 5px 10px;
 }
+
 .service-card-button-div{
     padding-top: 15px;
     text-align: center;
@@ -161,59 +166,20 @@ html,body{
     color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.links-section-div{
+    padding: 55px 0px;
+}
+.links-section-header{
+    text-align: center;
+    padding: 50px 0px;
+    .links-section-header-text{
+        font-size: 2.6rem;
+        font-weight: 600;
+        color: $primary-color;
+        border-radius: 4px;
+    }
+}
 .imp--links--div {
-    padding-top: 12rem;
     padding-bottom: 10rem;
 
     .imp--links--col {
