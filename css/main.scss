@@ -1,8 +1,8 @@
 $primary-color: #ff1403;
-$secondary-color: #00796e;
+$secondary-color: #EDEDED;
 $primary-text-color: #fe1616;
 $primary-font-size: 10px;
-$primary-font-family : Roboto;
+$primary-font-family : "Lato";
 
 
 html,body{
@@ -17,11 +17,11 @@ html,body{
     padding-top: 1.1rem;
     padding-bottom: 1.1rem;
     letter-spacing: 0.04rem;
-    background-color: $primary-color;
+    background-color: #474747;
 }
 
 .navbar-nav .nav-link{
-    color: white !important; 
+    color: $secondary-color !important; 
     font-size: 1.35rem;
 }
 
@@ -103,7 +103,7 @@ html,body{
 }
 .ticker--control--button{
     background-color: $secondary-color; 
-    color: white;
+    color: $primary-color;
 }
 
 
@@ -115,7 +115,6 @@ html,body{
     padding: 50px 0px 70px 0px;
     .services-section-header-text{
         font-size: 2.6rem;
-        font-weight: 600;
         color: $primary-color;
         border-radius: 4px;
     }
@@ -144,14 +143,14 @@ html,body{
     height: 100px;;
 }
 .service-card-header{
-    color: white;
+    color: black;
     font-size: 1.5rem;
     font-weight: 400;
     padding-top: 80px;
     text-align: center;
 }
 .service-card-details{
-    color: white;
+    color: black;
     font-size: 1.2rem;
     text-align: center;
     padding: 10px 10px 5px 10px;
@@ -163,7 +162,8 @@ html,body{
 }
 .service-card-button{
     background-color: $primary-color;
-    color: white;
+    color: $secondary-color;
+    font-size: 1.2rem;
 }
 
 .links-section-div{
@@ -174,7 +174,6 @@ html,body{
     padding: 50px 0px;
     .links-section-header-text{
         font-size: 2.6rem;
-        font-weight: 600;
         color: $primary-color;
         border-radius: 4px;
     }
@@ -191,23 +190,23 @@ html,body{
         .imp--single-link--div {
             width: 100px;
             height: 100px;
-            background-color: $primary-color;
+            background-color: $secondary-color;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             border-radius: 4px;
-            box-shadow: 0px 5px 6px 0px #bfbcbc;
+            box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.3);
             padding: 5px;
             
             i{
-                color: #fbffbc;
+                color: black;
                 font-size: 1.8rem;
                 margin-bottom: 10px;
             }
 
             a {
-                color: #fbffbc;
+                color: black;
                 text-align: center;
                 font-size: 1.3rem;
             }
@@ -232,7 +231,7 @@ html,body{
         left: 0;
         right: 0;
         bottom: 0;
-        background: $secondary-color;
+        background: $primary-color;
         transform: scaleY(0);
         transform-origin: 50% 0;
         transition-property: transform;
@@ -251,66 +250,26 @@ html,body{
 }
 
 
-
-// *** Section Contact Us ***//
-* {
-  box-sizing: border-box;
+.contact-div{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    
 }
-
-/* Style inputs */
-input[type=text], select, textarea, input[type=email] {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+.contact-div-header{
+    color: $primary-color;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Lato";
 }
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
+.contact-div-subheader{
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
 }
-
-input[type=submit]:hover {
-  background-color: #45a049;
+.contact-us-card-icon{
+    color: $secondary-color;
 }
-
-/* Style the container/contact section */
-.custom-container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 10px;
-  margin: 50px;
-}
-
-/* Create two columns that float next to eachother */
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-
-
 // Section Footer
 .custom-footer{
     background-color: black;

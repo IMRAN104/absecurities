@@ -1,7 +1,7 @@
 html, body {
   overflow-x: hidden;
   font-size: 10px;
-  font-family: Roboto, monospace;
+  font-family: "Lato", monospace;
 }
 
 .i-nav-bar {
@@ -11,11 +11,11 @@ html, body {
   padding-top: 1.1rem;
   padding-bottom: 1.1rem;
   letter-spacing: 0.04rem;
-  background-color: #ff1403;
+  background-color: #474747;
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  color: #EDEDED !important;
   font-size: 1.35rem;
 }
 
@@ -120,8 +120,8 @@ html, body {
 }
 
 .ticker--control--button {
-  background-color: #00796e;
-  color: white;
+  background-color: #EDEDED;
+  color: #ff1403;
 }
 
 .services-section-div {
@@ -135,7 +135,6 @@ html, body {
 
 .services-section-header .services-section-header-text {
   font-size: 2.6rem;
-  font-weight: 600;
   color: #ff1403;
   border-radius: 4px;
 }
@@ -156,7 +155,7 @@ html, body {
   -webkit-box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.3);
   position: relative;
-  background-color: #00796e;
+  background-color: #EDEDED;
 }
 
 .service-img-div {
@@ -173,7 +172,7 @@ html, body {
 }
 
 .service-card-header {
-  color: white;
+  color: black;
   font-size: 1.5rem;
   font-weight: 400;
   padding-top: 80px;
@@ -181,7 +180,7 @@ html, body {
 }
 
 .service-card-details {
-  color: white;
+  color: black;
   font-size: 1.2rem;
   text-align: center;
   padding: 10px 10px 5px 10px;
@@ -194,7 +193,8 @@ html, body {
 
 .service-card-button {
   background-color: #ff1403;
-  color: white;
+  color: #EDEDED;
+  font-size: 1.2rem;
 }
 
 .links-section-div {
@@ -208,7 +208,6 @@ html, body {
 
 .links-section-header .links-section-header-text {
   font-size: 2.6rem;
-  font-weight: 600;
   color: #ff1403;
   border-radius: 4px;
 }
@@ -231,7 +230,7 @@ html, body {
 .imp--links--div .imp--links--col .imp--single-link--div {
   width: 100px;
   height: 100px;
-  background-color: #ff1403;
+  background-color: #EDEDED;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -246,19 +245,19 @@ html, body {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 4px;
-  -webkit-box-shadow: 0px 5px 6px 0px #bfbcbc;
-          box-shadow: 0px 5px 6px 0px #bfbcbc;
+  -webkit-box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.3);
   padding: 5px;
 }
 
 .imp--links--div .imp--links--col .imp--single-link--div i {
-  color: #fbffbc;
+  color: black;
   font-size: 1.8rem;
   margin-bottom: 10px;
 }
 
 .imp--links--div .imp--links--col .imp--single-link--div a {
-  color: #fbffbc;
+  color: black;
   text-align: center;
   font-size: 1.3rem;
 }
@@ -285,7 +284,7 @@ html, body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #00796e;
+  background: #ff1403;
   -webkit-transform: scaleY(0);
           transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -311,62 +310,27 @@ html, body {
           transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-/* Style inputs */
-input[type=text], select, textarea, input[type=email] {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-/* Style the container/contact section */
-.custom-container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 10px;
-  margin: 50px;
-}
-
-/* Create two columns that float next to eachother */
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
+.contact-div {
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 20px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.contact-div-header {
+  color: #ff1403;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Lato";
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
+.contact-div-subheader {
+  color: black;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.contact-us-card-icon {
+  color: #EDEDED;
 }
 
 .custom-footer {
