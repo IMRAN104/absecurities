@@ -120,7 +120,7 @@ html, body {
 }
 
 .ticker--control--button {
-  background-color: #009800;
+  background-color: #00796e;
   color: white;
 }
 
@@ -136,8 +136,56 @@ html, body {
 .services-section-header .services-section-header-text {
   font-size: 2.6rem;
   font-weight: 600;
-  color: red;
+  color: #ff1403;
   border-radius: 4px;
+}
+
+.service-card-div {
+  width: 220px;
+  height: 250px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  position: relative;
+  background-color: #00796e;
+}
+
+.service-img-div {
+  position: absolute;
+  top: -30px;
+  left: 60px;
+}
+
+.service-img {
+  border-radius: 50%;
+  border: 5px solid #ff1403;
+  width: 100px;
+  height: 100px;
+}
+
+.service-card-header {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.service-card-details {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 10px 10px 5px 10px;
+}
+
+.service-card-button-div {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.service-card-button {
+  background-color: #ff1403;
+  color: white;
 }
 
 .imp--links--div {
@@ -213,7 +261,7 @@ html, body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #009800;
+  background: #00796e;
   -webkit-transform: scaleY(0);
           transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
