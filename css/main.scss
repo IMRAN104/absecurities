@@ -200,15 +200,21 @@ html,body{
             padding: 5px;
             
             i{
-                color: black;
+                color: $primary-color;
                 font-size: 1.8rem;
                 margin-bottom: 10px;
             }
 
-            a {
+            a{
                 color: black;
                 text-align: center;
                 font-size: 1.3rem;
+            }
+            
+            &:hover, &:focus, &:active {
+                i,a{
+                    color: white;
+                }
             }
         }
     }
@@ -239,9 +245,7 @@ html,body{
         transition-timing-function: ease-out;
     }
 
-    &:hover, &:focus, &:active {
-        color: white;
-    }
+    
 
     &:hover:before, &:focus:before, &:active:before {
         transform: scaleY(1);

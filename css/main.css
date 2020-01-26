@@ -251,7 +251,7 @@ html, body {
 }
 
 .imp--links--div .imp--links--col .imp--single-link--div i {
-  color: black;
+  color: #ff1403;
   font-size: 1.8rem;
   margin-bottom: 10px;
 }
@@ -260,6 +260,10 @@ html, body {
   color: black;
   text-align: center;
   font-size: 1.3rem;
+}
+
+.imp--links--div .imp--links--col .imp--single-link--div:hover i, .imp--links--div .imp--links--col .imp--single-link--div:hover a, .imp--links--div .imp--links--col .imp--single-link--div:focus i, .imp--links--div .imp--links--col .imp--single-link--div:focus a, .imp--links--div .imp--links--col .imp--single-link--div:active i, .imp--links--div .imp--links--col .imp--single-link--div:active a {
+  color: white;
 }
 
 .hvr-bounce-to-bottom {
@@ -297,10 +301,6 @@ html, body {
           transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-out;
           transition-timing-function: ease-out;
-}
-
-.hvr-bounce-to-bottom:hover, .hvr-bounce-to-bottom:focus, .hvr-bounce-to-bottom:active {
-  color: white;
 }
 
 .hvr-bounce-to-bottom:hover:before, .hvr-bounce-to-bottom:focus:before, .hvr-bounce-to-bottom:active:before {
